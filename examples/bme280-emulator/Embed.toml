@@ -1,0 +1,12 @@
+[default.general]
+chip = "STM32F103C8"
+
+[default.rtt]
+enabled = true
+
+channels = [
+    { up = 0, down = 0, name = "Defmt", format = "Defmt" },
+]
+
+[default.gdb]
+enabled = true

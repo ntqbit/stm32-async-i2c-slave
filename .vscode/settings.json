@@ -1,0 +1,11 @@
+{
+    "rust-analyzer.check.allTargets": false,
+    "rust-analyzer.check.targets": "thumbv7m-none-eabi",
+    "rust-analyzer.cargo.features": [
+        "defmt",
+        "dump"
+    ],
+    "rust-analyzer.linkedProjects": [
+        "./examples/bme280-emulator/Cargo.toml"
+    ]
+}
